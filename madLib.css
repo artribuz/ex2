@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FFF674;
+  size: 14px;
+  padding: 24px;
+}
+
+header {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 18pt;
+    width: 100%;
+    color: #080F90;
+}
+
+em {
+  color: #1721D8;
+}
+
+section {
+    float:left;
+    width: 40%;
+    margin: 40px;
+}
+
+form input {
+  margin: 10px 20px;
+  border: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-bottom: 2px solid #080F90;
+  background-color: #FFF674;
+  color: #080F90;
+  font-size: 14px;
+}
+
+form input[type="submit"],
+form input[type="reset"]{
+  margin: 24px 6px;
+  border:none;
+  padding: 15px;
+  background-color: #FFBA74;
+  color: #080F90;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background-color: #1721D8;
+  color: #FFF334;
+}
+
+select{
+  margin: 10px 20px;  
+    font-family: 'Roboto Condensed', sans-serif;
+  border-bottom: 2px solid #080F90;
+  background-color: #FFF674;
+    color: #080F90;
+}
+article{
+    float:left;
+    width: 45%;
+    margin-top: 38px;
+    font-size: 18px;
+}
+img{
+    width:75%;
+    height:75%;
+    padding-left:30px;
+}
+    
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
