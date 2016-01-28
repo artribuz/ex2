@@ -6,11 +6,11 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #FFF674;
-  size: 14px;
-  padding: 24px;
+
 }
 
 header {
+    padding-top: 15px;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     font-size: 18pt;
@@ -29,7 +29,7 @@ section {
 }
 
 form input {
-  margin: 10px 20px;
+  margin: 8px 20px;
   border: none;
   font-family: 'Roboto Condensed', sans-serif;
   border-bottom: 2px solid #080F90;
@@ -78,4 +78,20 @@ img{
 
 .show {
   visibility: visible;
+}
+footer{
+    text-align:center;
+    background-color:#1721D8;
+    bottom:0px;
+    position:fixed;
+    width:100%;
+}
+a:link, a:visited{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:20px;
+    color:yellow;
+    text-decoration: none;
+}
+a:hover{
+    color:#FFBA74;
 }
